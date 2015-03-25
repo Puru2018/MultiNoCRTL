@@ -33,20 +33,6 @@ Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2
 Top level modules:
 	tb_mux5to1
 
-} {} {}} C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/routeCompWest.v {1 {vlog -work work -stats=none C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/routeCompWest.v
-Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module routeCompWest
-
-Top level modules:
-	routeCompWest
-
-} {} {}} C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/routeCompNorth.v {1 {vlog -work work -stats=none C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/routeCompNorth.v
-Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module routeCompNorth
-
-Top level modules:
-	routeCompNorth
-
 } {} {}} C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/global.v {1 {vlog -work work -stats=none C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/global.v
 Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2014
 
@@ -162,20 +148,6 @@ Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2
 Top level modules:
 	mux2to1
 
-} {} {}} C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/routeCompSouth.v {1 {vlog -work work -stats=none C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/routeCompSouth.v
-Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module routeCompSouth
-
-Top level modules:
-	routeCompSouth
-
-} {} {}} C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/routeCompLocal.v {1 {vlog -work work -stats=none C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/routeCompLocal.v
-Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module routeCompLocal
-
-Top level modules:
-	routeCompLocal
-
 } {} {}} C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/xbar5Ports.v {1 {vlog -work work -stats=none C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/xbar5Ports.v
 Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2014
 -- Compiling module xbar5Ports
@@ -189,13 +161,6 @@ Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2
 
 Top level modules:
 	xbarCtrl
-
-} {} {}} C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/routeCompEast.v {1 {vlog -work work -stats=none C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/routeCompEast.v
-Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module routeCompEast
-
-Top level modules:
-	routeCompEast
 
 } {} {}} C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/highestBit.v {1 {vlog -work work -stats=none C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/highestBit.v
 Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2014
