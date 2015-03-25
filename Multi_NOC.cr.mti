@@ -1,11 +1,4 @@
-C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/tb_xbar5Ports.v {1 {vlog -work work -stats=none C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/tb_xbar5Ports.v
-Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module tb_xbar5Ports
-
-Top level modules:
-	tb_xbar5Ports
-
-} {} {}} C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/arbiterPN.v {1 {vlog -work work -stats=none C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/arbiterPN.v
+C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/arbiterPN.v {1 {vlog -work work -stats=none C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/arbiterPN.v
 Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2014
 -- Compiling module arbiterPN
 
@@ -18,6 +11,13 @@ Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2
 
 Top level modules:
 	tb_xbarCtrl
+
+} {} {}} C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/tb_xbar5Ports.v {1 {vlog -work work -stats=none C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/tb_xbar5Ports.v
+Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module tb_xbar5Ports
+
+Top level modules:
+	tb_xbar5Ports
 
 } {} {}} C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/permuterBlock.v {1 {vlog -work work -stats=none C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/permuterBlock.v
 Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2014
@@ -33,13 +33,6 @@ Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2
 Top level modules:
 	tb_mux5to1
 
-} {} {}} C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/routeCompNorth.v {1 {vlog -work work -stats=none C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/routeCompNorth.v
-Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module routeCompNorth
-
-Top level modules:
-	routeCompNorth
-
 } {} {}} C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/routeCompWest.v {1 {vlog -work work -stats=none C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/routeCompWest.v
 Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2014
 -- Compiling module routeCompWest
@@ -47,12 +40,29 @@ Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2
 Top level modules:
 	routeCompWest
 
+} {} {}} C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/routeCompNorth.v {1 {vlog -work work -stats=none C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/routeCompNorth.v
+Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module routeCompNorth
+
+Top level modules:
+	routeCompNorth
+
+} {} {}} C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/global.v {1 {vlog -work work -stats=none C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/global.v
+Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2014
+
 } {} {}} C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/tb_demux1to5.v {1 {vlog -work work -stats=none C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/tb_demux1to5.v
 Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2014
 -- Compiling module tb_demux1to5
 
 Top level modules:
 	tb_demux1to5
+
+} {} {}} C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/portAllocWrapper.v {1 {vlog -work work -stats=none C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/portAllocWrapper.v
+Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module portAllocWrapper
+
+Top level modules:
+	portAllocWrapper
 
 } {} {}} C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/muxWrapper2to1.v {1 {vlog -work work -stats=none C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/muxWrapper2to1.v
 Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2014
@@ -75,12 +85,12 @@ Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2
 Top level modules:
 	demuxWrapper1to2
 
-} {} {}} C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/permutationNetwork.v {1 {vlog -work work -stats=none C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/permutationNetwork.v
+} {} {}} C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/portAllocTop.v {1 {vlog -work work -stats=none C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/portAllocTop.v
 Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module permutationNetwork
+-- Compiling module portAllocTop
 
 Top level modules:
-	permutationNetwork
+	portAllocTop
 
 } {} {}} C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/mux5to1.v {1 {vlog -work work -stats=none C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/mux5to1.v
 Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2014
@@ -89,20 +99,6 @@ Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2
 Top level modules:
 	mux5to1
 
-} {} {}} C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/portAllocTop.v {1 {vlog -work work -stats=none C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/portAllocTop.v
-Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module portAllocTop
-
-Top level modules:
-	portAllocTop
-
-} {} {}} C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/demux1to5.v {1 {vlog -work work -stats=none C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/demux1to5.v
-Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module demux1to5
-
-Top level modules:
-	demux1to5
-
 } {} {}} C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/portAllocLast.v {1 {vlog -work work -stats=none C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/portAllocLast.v
 Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2014
 -- Compiling module portAllocLast
@@ -110,12 +106,12 @@ Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2
 Top level modules:
 	portAllocLast
 
-} {} {}} C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/demux1to6.v {1 {vlog -work work -stats=none C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/demux1to6.v
+} {} {}} C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/demux1to5.v {1 {vlog -work work -stats=none C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/demux1to5.v
 Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module demux1to6
+-- Compiling module demux1to5
 
 Top level modules:
-	demux1to6
+	demux1to5
 
 } {} {}} C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/tb_portAlloc.v {1 {vlog -work work -stats=none C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/tb_portAlloc.v
 Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2014
@@ -131,6 +127,13 @@ Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2
 Top level modules:
 	demuxWrapper1to5
 
+} {} {}} C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/demux1to6.v {1 {vlog -work work -stats=none C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/demux1to6.v
+Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module demux1to6
+
+Top level modules:
+	demux1to6
+
 } {} {}} C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/tb_portAllocWrapper.v {1 {vlog -work work -stats=none C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/tb_portAllocWrapper.v
 Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2014
 -- Compiling module tb_portAllocWrapper
@@ -145,19 +148,19 @@ Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2
 Top level modules:
 	tb_permutationNetwork
 
-} {} {}} C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/mux2to1.v {1 {vlog -work work -stats=none C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/mux2to1.v
-Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module mux2to1
-
-Top level modules:
-	mux2to1
-
 } {} {}} C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/portAlloc.v {1 {vlog -work work -stats=none C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/portAlloc.v
 Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2014
 -- Compiling module portAlloc
 
 Top level modules:
 	portAlloc
+
+} {} {}} C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/mux2to1.v {1 {vlog -work work -stats=none C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/mux2to1.v
+Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module mux2to1
+
+Top level modules:
+	mux2to1
 
 } {} {}} C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/routeCompSouth.v {1 {vlog -work work -stats=none C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/routeCompSouth.v
 Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2014
@@ -166,12 +169,12 @@ Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2
 Top level modules:
 	routeCompSouth
 
-} {} {}} C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/xbarCtrl.v {1 {vlog -work work -stats=none C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/xbarCtrl.v
+} {} {}} C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/routeCompLocal.v {1 {vlog -work work -stats=none C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/routeCompLocal.v
 Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module xbarCtrl
+-- Compiling module routeCompLocal
 
 Top level modules:
-	xbarCtrl
+	routeCompLocal
 
 } {} {}} C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/xbar5Ports.v {1 {vlog -work work -stats=none C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/xbar5Ports.v
 Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2014
@@ -180,12 +183,12 @@ Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2
 Top level modules:
 	xbar5Ports
 
-} {} {}} C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/highestBit.v {1 {vlog -work work -stats=none C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/highestBit.v
+} {} {}} C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/xbarCtrl.v {1 {vlog -work work -stats=none C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/xbarCtrl.v
 Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module highestBit
+-- Compiling module xbarCtrl
 
 Top level modules:
-	highestBit
+	xbarCtrl
 
 } {} {}} C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/routeCompEast.v {1 {vlog -work work -stats=none C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/routeCompEast.v
 Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2014
@@ -194,12 +197,12 @@ Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2
 Top level modules:
 	routeCompEast
 
-} {} {}} C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/mux6to1.v {1 {vlog -work work -stats=none C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/mux6to1.v
+} {} {}} C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/highestBit.v {1 {vlog -work work -stats=none C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/highestBit.v
 Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module mux6to1
+-- Compiling module highestBit
 
 Top level modules:
-	mux6to1
+	highestBit
 
 } {} {}} C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/outSelTrans.v {1 {vlog -work work -stats=none C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/outSelTrans.v
 Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2014
@@ -215,11 +218,11 @@ Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2
 Top level modules:
 	muxWrapper5to1
 
-} {} {}} C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/topBLESS.v {1 {vlog -work work -stats=none C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/topBLESS.v
+} {} {}} C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/mux6to1.v {1 {vlog -work work -stats=none C:/Anderson/GoogleDrive/NOC/MultiNoCRTL/mux6to1.v
 Model Technology ModelSim PE Student Edition vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module topBLESS
+-- Compiling module mux6to1
 
 Top level modules:
-	topBLESS
+	mux6to1
 
 } {} {}}
