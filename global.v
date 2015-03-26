@@ -3,14 +3,14 @@
 `define _GLOBAL_PARA_V
 
 // Port Arragement
-// 4-LOCAL; 3-N; 2-S; 1-E; 0-W;
+// 5-BYPASS 4-LOCAL; 3-N; 2-S; 1-E; 0-W;
 
 `define CURRENT_POS_X `WIDTH_COORDINATE'd0
 `define CURRENT_POS_Y `WIDTH_COORDINATE'd0
 `define SIZE_NETWORK 16
-`define NUM_PORT 5
+`define NUM_PORT 6  // Include Pypass
 `define LOG_NUM_PORT 3 // = Celling (log2 (NUM_PORT))
-`define WIDTH_DATA 256
+`define WIDTH_DATA 128
 `define WIDTH_CTRL 24
 `define WIDTH_PORT `WIDTH_DATA+`WIDTH_CTRL
 //`define WIDTH_PORT_NI `WIDTH_DATA+`WIDTH_CTRL

@@ -8,8 +8,6 @@ input [`NUM_PORT*`NUM_PORT-1:0] allocVector;
 
 output [`NUM_PORT*`LOG_NUM_PORT-1:0] outSelVector, inSelVector;
 
-//input [`NUM_PORT-1:0] alloc1, alloc2, alloc3, alloc4;
-
 wire [`NUM_PORT-1:0] alloc [`NUM_PORT-1:0];
 wire  [`LOG_NUM_PORT-1:0] outSel [0:`NUM_PORT-1]; // 4-LOCAL; 3-N; 2-S; 1-E; 0-W;
 reg  [`LOG_NUM_PORT-1:0] inSel [0:`NUM_PORT-1]; // 4-LOCAL; 3-N; 2-S; 1-E; 0-W;
@@ -28,6 +26,15 @@ initial
       inSel[k] = `LOG_NUM_PORT'd0;
    
 always @ * begin
+  
+   case (outSel[5])
+      0: inSel[0] <= 5;
+      1: inSel[1] <= 5;
+      2: inSel[2] <= 5;
+      3: inSel[3] <= 5;
+      4: inSel[4] <= 5;    
+      5: inSel[5] <= 5;    
+   endcase
 
    case (outSel[4])
       0: inSel[0] <= 4;
@@ -35,6 +42,7 @@ always @ * begin
       2: inSel[2] <= 4;
       3: inSel[3] <= 4;
       4: inSel[4] <= 4;    
+      5: inSel[5] <= 4;    
    endcase  
    
    case (outSel[3])
@@ -42,7 +50,8 @@ always @ * begin
       1: inSel[1] <= 3;
       2: inSel[2] <= 3;
       3: inSel[3] <= 3;
-      4: inSel[4] <= 3;    
+      4: inSel[4] <= 3;
+      5: inSel[5] <= 3;         
    endcase
    
    case (outSel[2])
@@ -50,7 +59,8 @@ always @ * begin
       1: inSel[1] <= 2;
       2: inSel[2] <= 2;
       3: inSel[3] <= 2;
-      4: inSel[4] <= 2;    
+      4: inSel[4] <= 2;
+      5: inSel[5] <= 2;
    endcase
 
    case (outSel[1])
@@ -58,7 +68,8 @@ always @ * begin
       1: inSel[1] <= 1;
       2: inSel[2] <= 1;
       3: inSel[3] <= 1;
-      4: inSel[4] <= 1;    
+      4: inSel[4] <= 1;
+      5: inSel[5] <= 1;
    endcase
    
    case (outSel[0])
@@ -67,6 +78,7 @@ always @ * begin
       2: inSel[2] <= 0;
       3: inSel[3] <= 0;
       4: inSel[4] <= 0;
+      5: inSel[5] <= 0;
    endcase   
 end
 

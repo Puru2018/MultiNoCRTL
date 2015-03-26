@@ -4,10 +4,11 @@ module portAllocTop (
    req, alloc, remain
 );
 
-input    [`NUM_PORT-1:0]       req;
+input    [`WIDTH_PV-1:0]       req;
 output   [`NUM_PORT-1:0]       alloc, remain;
 
-assign alloc = req;
+highestBit allocProdPort ({1'b0,req}, alloc);
+
 assign remain = ~alloc;
 
 endmodule
