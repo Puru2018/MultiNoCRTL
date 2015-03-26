@@ -7,17 +7,17 @@
 #/**************************************************/
 
 #/* All verilog files, separated by spaces         */
-set my_verilog_files [list arbiterPN.v demux1to2.v demux1to5.v demuxWrapper1to2.v demuxWrapper1to5.v global.v highestBit.v mux2to1.v mux5to1.v muxWrapper2to1.v muxWrapper5to1.v outSelTrans.v permutationNetwork.v permuterBlock.v portAlloc.v portAllocLast.v portAllocTop.v portAllocWrapper.v routeCompEast.v routeCompWest.v routeCompNorth.v routeCompSouth.v routeCompLocal.v topBLESS.v xbar5Ports.v xbarCtrl.v ]
+set my_verilog_files [list arbiterPN.v demux1to2.v demux1to6.v demuxWrapper1to2.v demuxWrapper1to6.v global.v highestBit.v mux2to1.v mux6to1.v muxWrapper2to1.v muxWrapper6to1.v outSelTrans.v permutationNetwork.v permuterBlock.v portAlloc.v portAllocLast.v portAllocTop.v portAllocWrapper.v routeComp.v topBLESS.v xbar6Ports.v xbarCtrl.v topMultiNoC.v]
 
 #/* Top-level Module                               */
-set my_toplevel topBLESS
+set my_toplevel topMultiNoC
 
 #/* The name of the clock pin. If no clock-pin     */
 #/* exists, pick anything                          */
 set my_clock_pin clk
 
 #/* Target frequency in MHz for optimization       */
-set my_clk_freq_MHz 1000
+set my_clk_freq_MHz 500
 
 #/* Delay of input signals (Clock-to-Q, Package etc.)  */
 set my_input_delay_ns 0.1
@@ -85,3 +85,4 @@ redirect cell.rep { report_cell }
 redirect power.rep { report_power }
 
 quit
+

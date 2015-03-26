@@ -7,7 +7,10 @@ module portAllocTop (
 input    [`WIDTH_PV-1:0]       req;
 output   [`NUM_PORT-1:0]       alloc, remain;
 
-highestBit allocProdPort ({1'b0,req}, alloc);
+wire [`NUM_PORT-1:0]  temp;
+assign temp = {1'b0, req};
+
+highestBit allocProdPort (temp, alloc);
 
 assign remain = ~alloc;
 
